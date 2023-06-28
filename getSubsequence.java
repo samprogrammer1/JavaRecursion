@@ -4,6 +4,7 @@ public class getSubsequence {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
+        scn.close();
         ArrayList<String> res = gss(str);
         System.out.println(res);
     }
