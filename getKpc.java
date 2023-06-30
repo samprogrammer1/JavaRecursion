@@ -18,7 +18,7 @@ public class getKpc {
             bres.add("");
             return bres;
         }
-
+        
         char ch = str.charAt(0); //1
         String ros = str.substring(1); //2
 
