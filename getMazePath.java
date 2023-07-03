@@ -6,6 +6,7 @@ public class getMazePath {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int m = scn.nextInt();
+        scn.close();
         ArrayList<String> paths =  MazePaths(1 , 1 , n , m);
 
         System.out.println(paths);
