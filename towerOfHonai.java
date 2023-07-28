@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 // input :-
 //      3
 //      10
@@ -15,9 +14,6 @@ import java.util.Scanner;
 // 1[12 -> 10]
 // 2[12 -> 11]
 // 1[10 -> 11]
-
-
-
 
 
 

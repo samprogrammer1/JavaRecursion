@@ -6,7 +6,7 @@ public class getMazaPathsWithJump {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int m = scn.nextInt();
-
+        scn.close();
         ArrayList<String> arr = getMazepath(1, 1, n , m);
         System.out.println(arr);
     }
@@ -27,6 +27,7 @@ public class getMazaPathsWithJump {
             }
         }
 
+        // veritical Path
         for(int ms = 1; ms <= dr - sr; ms++){
             ArrayList<String> vpaths = getMazepath(sr + ms , sc, dr, dc);
             for(String vpath : vpaths){

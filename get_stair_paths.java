@@ -19,7 +19,7 @@ public class get_stair_paths {
             ArrayList<String> bpath = new ArrayList<>();
             return bpath;
         }
-        
+
         ArrayList<String> paths1 = stairPath(n - 1 );
         ArrayList<String> paths2 = stairPath(n - 2 );
         ArrayList<String> paths3 = stairPath(n - 3 );
@@ -38,4 +38,5 @@ public class get_stair_paths {
 
         return resPaths;
     }
+
 }
